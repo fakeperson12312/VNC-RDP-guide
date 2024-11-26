@@ -16,3 +16,8 @@ default username is docker and password is nonexistant, as in N/A like it doesn'
 
 After that it's pretty simple, just a windows operating system. You can rdp to it for a better connection, but for the web, just use the client that's provided. 
 For some reason I can set the cores to 4 on a 2-core vm, so idk what's up with that but you still can. 
+
+# Issue fixes
+Firstly, if there's too little ram, that's a simple fix. Either you upgrade or you set the ram for windows to be lower. 
+Secondly, if the core amount is too much, also a simple fix, just change 4 to 2. Thirdly, Space might be an issue so be careful with that. 
+Fourthly, technically all you need is a terminal to do this, because trycloudflare also works as port forwarding. 
