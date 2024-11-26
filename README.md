@@ -15,3 +15,4 @@ For some reason Windows 11 doesn't work sometimes so I decided to go with window
 default username is docker and password is nonexistant, as in N/A like it doesn't exist. 
 
 After that it's pretty simple, just a windows operating system. You can rdp to it for a better connection, but for the web, just use the client that's provided. 
+For some reason I can set the cores to 4 on a 2-core vm, so idk what's up with that but you still can. 
