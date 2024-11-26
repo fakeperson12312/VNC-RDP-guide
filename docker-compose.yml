@@ -1,0 +1,20 @@
+services:
+  windows:
+    image: dockurr/windows
+    container_name: windows
+    privileged: true
+    environment:
+      VERSION: "10"
+      KVM: "N"
+      RAM_SIZE: "8G"
+      CPU_CORES: "2"
+      HV: "N"
+    cap_add:
+      - NET_ADMIN
+    volumes:
+      - ./windows:/data
+    ports:
+      - 8006:8006
+      - 3390:3390/tcp
+      - 3390:3390/udp
+    stop_grace_period: 2m
