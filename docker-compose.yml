@@ -6,7 +6,7 @@ services:
     environment:
       VERSION: "10"
       KVM: "N"
-      RAM_SIZE: "6G"
+      RAM_SIZE: "5G"
       CPU_CORES: "2"
       HV: "N"
     cap_add:
